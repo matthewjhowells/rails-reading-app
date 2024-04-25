@@ -1,0 +1,19 @@
+current directory: /Users/matthew.howells/Documents/ruby-training/reading-tracker/vendor/bundle/ruby/2.7.0/gems/racc-1.7.3/ext/racc/cparse
+/Users/matthew.howells/.rbenv/versions/2.7.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/matthew.howells/Documents/ruby-training/reading-tracker/vendor/bundle/ruby/2.7.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240424-76726-1vzx13e sitelibdir\=./.gem.20240424-76726-1vzx13e clean
+
+current directory: /Users/matthew.howells/Documents/ruby-training/reading-tracker/vendor/bundle/ruby/2.7.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240424-76726-1vzx13e sitelibdir\=./.gem.20240424-76726-1vzx13e
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: -multiply_defined is obsolete
+
+current directory: /Users/matthew.howells/Documents/ruby-training/reading-tracker/vendor/bundle/ruby/2.7.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240424-76726-1vzx13e sitelibdir\=./.gem.20240424-76726-1vzx13e install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20240424-76726-1vzx13e/racc
+
+current directory: /Users/matthew.howells/Documents/ruby-training/reading-tracker/vendor/bundle/ruby/2.7.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240424-76726-1vzx13e sitelibdir\=./.gem.20240424-76726-1vzx13e clean

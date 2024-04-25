@@ -1,0 +1,29 @@
+current directory: /Users/matthew.howells/Documents/ruby-training/reading-tracker/vendor/bundle/ruby/2.7.0/gems/io-console-0.7.2/ext/io/console
+/Users/matthew.howells/.rbenv/versions/2.7.2/bin/ruby extconf.rb
+checking for rb_io_path()... no
+checking for rb_io_descriptor()... no
+checking for rb_io_get_write_io()... yes
+checking for rb_io_closed_p()... no
+checking for rb_io_open_descriptor()... no
+checking for termios.h... yes
+checking for cfmakeraw() in termios.h... yes
+checking for sys/ioctl.h... yes
+checking for HAVE_RUBY_FIBER_SCHEDULER_H... no
+checking for rb_scheduler_timeout()... no
+creating Makefile
+
+current directory: /Users/matthew.howells/Documents/ruby-training/reading-tracker/vendor/bundle/ruby/2.7.0/gems/io-console-0.7.2/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240424-76726-2xl1oc sitelibdir\=./.gem.20240424-76726-2xl1oc clean
+
+current directory: /Users/matthew.howells/Documents/ruby-training/reading-tracker/vendor/bundle/ruby/2.7.0/gems/io-console-0.7.2/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240424-76726-2xl1oc sitelibdir\=./.gem.20240424-76726-2xl1oc
+compiling console.c
+linking shared-object io/console.bundle
+ld: warning: -multiply_defined is obsolete
+
+current directory: /Users/matthew.howells/Documents/ruby-training/reading-tracker/vendor/bundle/ruby/2.7.0/gems/io-console-0.7.2/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240424-76726-2xl1oc sitelibdir\=./.gem.20240424-76726-2xl1oc install
+/usr/bin/install -c -m 0755 console.bundle ./.gem.20240424-76726-2xl1oc/io
+
+current directory: /Users/matthew.howells/Documents/ruby-training/reading-tracker/vendor/bundle/ruby/2.7.0/gems/io-console-0.7.2/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240424-76726-2xl1oc sitelibdir\=./.gem.20240424-76726-2xl1oc clean

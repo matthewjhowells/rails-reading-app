@@ -1,0 +1,40 @@
+<%= form_with model: @book do |form| %>
+  <div>
+    <%= form.label :title %><br>
+    <%= form.text_field :title %>
+    <% if @book.errors.full_messages_for(:title).any? %>
+      <%= @book.errors.full_messages_for(:title).each do |message| %>
+        <div><%= message %></div>
+      <% end %>
+    <% end %>
+  </div>
+  <div>
+    <%= form.label :author %><br>
+    <%= form.text_field :author %>
+    <% if @book.errors.full_messages_for(:author).any? %>
+      <%= @book.errors.full_messages_for(:author).each do |message| %>
+        <div><%= message %></div>
+      <% end %>
+    <% end %>
+  </div>
+  <div>
+    <%= form.label :pages %><br>
+    <%= form.number_field :pages %>
+  </div>
+  <div>
+    <%= form.label :minutes%><br>
+    <%= form.number_field :minutes %>
+  </div>
+  <div>
+    <%= form.label :status %><br>
+    <%= form.select :status, ['tbr', 'reading', 'read'] %>
+    <% if @book.errors.full_messages_for(:author).any? %>
+      <%= @book.errors.full_messages_for(:status).each do |message| %>
+        <div><%= message %></div>
+      <% end %>
+    <% end %>
+  </div>
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
